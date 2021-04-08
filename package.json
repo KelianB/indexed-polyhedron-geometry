@@ -1,0 +1,40 @@
+{
+  "name": "indexed-polyhedron",
+  "version": "1.0.0",
+  "description": "Three.js experiments",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
+    "start": "npm run dev",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelian B.",
+  "license": "MIT",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.6",
+    "@types/three": "^0.126.2",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^2.2.1",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.4.1",
+    "typescript": "latest",
+    "webpack": "^4.39.2",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  }
+}
