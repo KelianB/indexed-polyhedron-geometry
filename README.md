@@ -2,6 +2,8 @@
 
 This is a demonstration of the implementation of an indexed polyhedron geometry in THREE.js. Among other things, indexed geometries benefit from smooth shading (approximating the normal at a vertex by averaging the normals of its connected faces) and, in highly-connected meshes, a lower memory footprint.
 
+Switching from the default non-indexed implenmetation provided by THREE.js only requires a few small tweaks in he PolyhedronGeometry class.
+
 ## Start the development server
 
 ```
